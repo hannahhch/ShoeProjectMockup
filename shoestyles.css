@@ -1,9 +1,66 @@
+.options{
+  display:inline-block;
+}
+.options button{
+  background-color: white;
+  border: solid transparent 2px;
+  color:#FF512F;
+  margin-bottom:15px;
+  font-weight:bold;
+  font-size:15px;
+}
+.options img{
+  width:45px;
+  padding: 10px 5px 3px 10px;
+}
+.options button:hover{
+  background-color:none;
+  color:#803500;
+  border-bottom: solid #803500 2px;
+}
+.cart{
+  display:inline-block;
+  position: relative;
+  left:540px;
+}
+.cart button{
+  background-color:white;
+  border:none;
+  color:#DF2671;
+  margin-bottom:15px;
+  font-size:13px;
+}
+.cart img{
+  width:20px;
+  padding-right:7px;
+}
+/*correct bit of header code, leave this alone!*/
+.buy button{
+  background-color:white;
+  color:red;
+  font-weight:bold;
+  border-radius:5px;
+  border:none;
+  font-size:15px;
+  padding:15px 25px 15px 25px;
+}
+.buy button:hover{
+  background-color: transparent;
+  border: solid white 1px;
+  color:white;
+}
+/*solid button code*/
+
+
+/*THIS IS GARBAGE*/
 .shoes{
-  background-color:#FF512F;
+  background:linear-gradient(to right, #DF2671 ,#FF512F);
   color: white;
   width:50%;
   padding: 5% 25%;
+
 }
+
 .info{
   width:50%;
   padding: 5% 25%;
@@ -12,7 +69,7 @@
 }
 
 .quick{
-  background-color:#FF512F;
+  background:linear-gradient(to right, #DF2671 ,#FF512F);
   color:white;
   width:50%;
   padding: 5% 25%;
@@ -28,20 +85,7 @@ h1{
   font-family: 'Raleway', sans-serif;
   padding-bottom:0px;
 }
-header a, footer a{
-  color:orange;
-  text-decoration: none;
-  padding: 10px;
-}
-.subfooter a{
-  color:grey;
-}
-.subfooter{
-  color:grey;
-}
- header a img{
-   padding:2px;
- }
+
  .quick a {
    color: white;
    text-decoration: none;
@@ -72,4 +116,35 @@ p{
 .quick h4,h1{
   padding:0px;
   margin:0px;
+}
+/*correct footer code to follow*/
+.suboptions{
+  display:inline-block;
+}
+.suboptions button{
+  background-color: white;
+  border: solid transparent 2px;
+  color:#FF512F;
+  margin-bottom:15px;
+  font-weight:bold;
+  font-size:12px;
+}
+.suboptions img{
+  width:45px;
+  padding: 20px 5px 3px 10px;
+}
+.suboptions button:hover{
+  background-color:none;
+  color:#803500;
+  border-bottom: solid #803500 2px;
+}
+.copy{
+  display:inline-block;
+  position: relative;
+  left:525px;
+  font-size:13px;
+  color:grey;
+}
+.copy a{
+  color:grey;
 }
