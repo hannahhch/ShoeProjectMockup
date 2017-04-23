@@ -19,7 +19,8 @@ h1{
 }
 .options button{
   background-color: white;
-  border: solid transparent 2px;
+  border: none;
+  border-bottom: 3px solid transparent;
   color:#FF512F;
   margin-bottom:15px;
   font-weight:bold;
