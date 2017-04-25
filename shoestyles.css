@@ -141,16 +141,29 @@ h1{
   border: none;
     border-bottom: 3px solid transparent;
   }
+#review{
+  border: none;
+  border-bottom: 3px solid transparent;
+    }
+
+#review:hover{
+  background-color:none;
+  color:#803500;
+  border-bottom: solid #803500 3px;
+    }
+
 #pd:hover{
   background-color:none;
   color:#803500;
   border-bottom: solid #803500 3px;
 }
+
 #size:hover{
     background-color:none;
     color:#803500;
     border-bottom: solid #803500 3px;
   }
+  
 .rcmd{
   background-color:#F9EFEB;
   color: #5F0D0A;
