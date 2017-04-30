@@ -62,6 +62,7 @@ h1{
   padding:15px 25px 15px 25px;
   margin-left: 10px;
 }
+
 #buy:hover{
   background-color: transparent;
   border: solid white 1px;
@@ -163,7 +164,7 @@ h1{
     color:#803500;
     border-bottom: solid #803500 3px;
   }
-  
+
 .rcmd{
   background-color:#F9EFEB;
   color: #5F0D0A;
