@@ -39,8 +39,17 @@ h1{
 .cart{
   display:inline-block;
   position: relative;
-  left:540px;
+  left:500px;
 }
+
+#number{
+  display: inline-block;
+  color:#DF2671;
+  margin-bottom:15px;
+  font-size:13px;
+
+}
+
 .cart button{
   background-color:white;
   border:none;
